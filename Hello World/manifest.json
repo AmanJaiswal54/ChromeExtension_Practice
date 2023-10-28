@@ -1,0 +1,9 @@
+{
+  "name": "chrome extension practice",
+  "description": "chrome extension for practice",
+  "manifest_version": 3,
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
