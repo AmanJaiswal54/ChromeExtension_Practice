@@ -1,0 +1,15 @@
+{
+  "name": "Page Font Style",
+  "description": "Page Font Style Extension",
+  "manifest_version": 3,
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "notifications", "contextMenus"],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png"
+  }
+}
