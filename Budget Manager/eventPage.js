@@ -37,6 +37,12 @@ chrome.contextMenus.onClicked.addListener((clickData) => {
   }
 });
 
+chrome.storage.onChanged.addListener(function (changes, storageName) {
+  chrome.action.setBadgeText({
+    text: changes.total_result.newValue.toString(),
+  });
+});
+
 function isInt(value) {
   return (
     !isNaN(value) &&
