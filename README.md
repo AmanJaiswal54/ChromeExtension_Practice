@@ -1,6 +1,7 @@
 # Couple of Chrome Extension for Learning and Practice
 
 
-1) Hello World
-2) Budget Manager
-3) HTML TO PDF
+1) How to connect popupJS, backgroundJS and contentScriptJS
+2) Hello World
+3) Budget Manager
+4) HTML TO PDF
