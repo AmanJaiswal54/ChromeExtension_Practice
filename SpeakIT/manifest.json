@@ -1,0 +1,18 @@
+{
+  "name": "SpeakIT",
+  "description": "Speak the selected text",
+  "manifest_version": 3,
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tts", "contextMenus"],
+  "action": {
+    "default_icon": {
+      "16": "speakIcon.png",
+      "32": "speakIcon.png",
+      "48": "speakIcon.png",
+      "128": "speakIcon.png"
+    }
+  }
+}
