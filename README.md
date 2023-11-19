@@ -5,3 +5,4 @@
 2) Hello World
 3) Budget Manager
 4) HTML TO PDF
+5) Speak Sentence from ContextMenus
