@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Magic list</title>
+	<link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+    <body>
+        <div style="display: flex; flex-direction: column">
+            <div id="greeting">
+            </div>
+            <div class="main-box">
+                <form method="GET" class="search-bar light js-form" autocomplete="off">
+                    <button type="submit" class="icon icon-search"></button>
+                    <input class="search-request-input" type="hidden" name="s" value="bing2">
+                    <input class="inputValue" type="text" name="q" placeholder="Please enter a request">
+                </form>
+            </div>
+			<div class="logo"></div>
+            <div class="container">
+				<div id="newtask">
+                    <input type="text" placeholder="Task to be done..">
+                    <button id="push">Add</button>
+                </div>
+        
+                <div id="tasks"></div>
+            </div>
+
+        <div id="bottom-links">
+            <div class="bottom-links_container"> 
+                <a href="https://extargonit.com/pages/about.html" title="About Us" target="_blank">About Us</a>
+                <a href="https://extargonit.com/pages/terms.html" title="Terms of Service" target="_blank">Terms of Service</a> 
+                <a href="https://extargonit.com/pages/privacy.html" title="Privacy Policy" target="_blank">Privacy Policy</a> 
+                <a href="https://extargonit.com/pages/contact.html" title="Contact Us" target="_blank">Contact Us</a>
+            </div>
+        </div>
+        <script src="./js/index.js"></script>
+        <script src="./js/form.js"></script>
+        <script src="./js/time.js"></script>
+    </body>
+</html>
