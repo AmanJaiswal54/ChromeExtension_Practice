@@ -1,0 +1,18 @@
+{
+   "action": {
+      "default_icon": "icon.png"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "description": "Magic list",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhEqfpbNJJ4lJR+uA10Nj8t1sVB0D6CVAZpFDHiF5tN+aZQlqPmeE794SrjuEDpJQBZ6xH5elYoWVTpjI0ToXRGnEU7wNtHYLXEpTHh+6PJ1ff45WFaJsBmR47jOLix+GLSlaJoG96ceS8GeN6Z9rZrDcqw2wMcy3UmM1IlHLUIB6MeNnZoiS4d6LMu9Uvrv3IDtVKWzuX33GMLR3RxQf7oeYhUVxRNJJ7GS2By9ahbRc/NkcX6viH0oDINCspSgXTqUqpmqM1vmVUzZ3imozWt+nrDrkdNOxh15u+aKGH2vD5dJ5J7gP5XWpl164D/v/WNWhhezwdKkoeU+VaTT7ZwIDAQAB",
+   "manifest_version": 3,
+   "name": "Magic list",
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.6"
+}
