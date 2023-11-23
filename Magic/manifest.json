@@ -1,0 +1,16 @@
+{
+  "name": "Magic",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Magic background",
+  "chrome_url_overrides": {
+      "newtab": "index.html"
+  },
+  "host_permissions": ["https://zenquotes.io/*"],
+  "icons": {
+      "16": "/speakIcon.png",
+      "32": "/speakIcon.png",
+      "48": "/speakIcon.png"
+  },
+  "permissions": [ "unlimitedStorage" ]
+}
