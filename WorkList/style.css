@@ -7,9 +7,19 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab,
+    #e52e71,
+    #ff8177,
+    #30cfd0,
+    #cf556c
+  );
   background-size: 600% 600%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 6s ease infinite;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -528,4 +538,10 @@ button i {
   display: inline;
   font-weight: bolder;
   font-size: 44px;
+}
+
+#dateTimeSeconds {
+  display: inline;
+  font-weight: bolder;
+  font-size: 22px;
 }

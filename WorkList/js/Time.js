@@ -13,6 +13,7 @@ function getDateTime() {
   function getTime() {
     let hours = today.getHours();
     let minutes = today.getMinutes();
+    let seconds = today.getSeconds();
     let postTime;
     let time;
 
@@ -34,6 +35,10 @@ function getDateTime() {
       minutes = "0" + minutes;
     }
 
+    if(seconds<10) {
+      seconds = "0" + seconds;
+    }
+
     // Set the time to how it should be displayed in html
     time =
       hours +
@@ -41,9 +46,16 @@ function getDateTime() {
       "</div>" +
       '<div id="dateTime">' +
       minutes +
-      " " +
+      "" +
+      '</div>' +
+      '<div id="dateTimeSeconds">' +
+      ":" + 
+      seconds + 
+      " " + 
+      '</div>' +
+      '<div id="dateTime">' +
       postTime +
-      "</div>";
+      '</div>';
 
     return time;
   }
@@ -105,5 +117,5 @@ function showGreeting() {
   document.getElementById("greeting").innerHTML = getDateTime();
 
   // Recursion to get current date without refreshing the page (Gets the time every two seconds)
-  setTimeout(showGreeting, 2000);
+  setTimeout(showGreeting, 1000);
 }
