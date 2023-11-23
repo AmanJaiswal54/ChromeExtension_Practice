@@ -6,4 +6,4 @@
 3) Budget Manager
 4) HTML TO PDF
 5) Speak Sentence from ContextMenus
-6) Magic
+6) WorkList - todo with animated background color
