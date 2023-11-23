@@ -1,0 +1,15 @@
+{
+  "name": "Work list",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Work list is a new tab extension that has a convenient use of the task list, an animated gradient background and a beautiful current time. New tabs will show the time, as well as added tasks in previous browser openings.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "/icon.png",
+    "32": "/icon.png",
+    "48": "/icon.png"
+  },
+  "permissions": ["unlimitedStorage"]
+}
