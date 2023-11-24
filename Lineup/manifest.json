@@ -1,0 +1,15 @@
+{
+  "name": "Lineup - Todo & Task List",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Lineup is a new tab extension that has a convenient use of the task list, an animated background and a beautiful current time.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "/icon.png",
+    "32": "/icon.png",
+    "48": "/icon.png"
+  },
+  "permissions": ["unlimitedStorage"]
+}
