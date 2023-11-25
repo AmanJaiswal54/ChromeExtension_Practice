@@ -7,3 +7,4 @@
 4) HTML TO PDF
 5) Speak Sentence from ContextMenus
 6) Lineup - todo with animated background color
+7) FullPageScreenshot
