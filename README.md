@@ -9,3 +9,4 @@
 5) Speak Sentence from ContextMenus
 6) Lineup - todo with animated background color
 7) FullPageScreenshot
+8) ColorPicker
