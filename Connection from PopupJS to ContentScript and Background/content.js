@@ -17,5 +17,19 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendresponse) {
   };
 
   // New Promise-based usage:
-  html2pdf().set(opt).from(element).save();
+  // html2pdf().set(opt).from(element).save();
+
+  // running the setinterval in background, independent of active/inactive Tab
+  let count = 1
+  setInterval(() => {
+    document.querySelector('.intro-hello').innerText = count++;
+  }, 100);
 });
+
+// how we send data to background.js
+chrome.runtime.sendMessage({type: "HOHOHO", options: { 
+    type: "basic", 
+    iconUrl: "abcd.png",
+    title: "Test",
+    message: "Test"
+}});
