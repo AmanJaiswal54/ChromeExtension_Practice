@@ -2,7 +2,7 @@
 
 
 
-1) How to connect popupJS, backgroundJS and contentScriptJS
+1) Connection between PopupJS, ContentScriptJS and BackgroundJS - How to exchange data between popupJS, backgroundJS and contentScriptJS 
 2) Hello World
 3) Budget Manager
 4) HTML TO PDF
