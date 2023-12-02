@@ -10,3 +10,4 @@
 6) Lineup - todo with animated background color
 7) FullPageScreenshot
 8) ColorPicker
+9) Open Chrome Side Panel
