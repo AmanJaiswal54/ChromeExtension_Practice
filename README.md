@@ -7,7 +7,7 @@
 3) Budget Manager
 4) HTML TO PDF
 5) Speak Sentence from ContextMenus
-6) Lineup - todo with animated background color
+6) Lineup - todo with animated background color, UPGRAGE IN PROGRESS
 7) FullPageScreenshot
 8) ColorPicker
 9) Open Chrome Side Panel
